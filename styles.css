@@ -1,0 +1,231 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(115deg, rgba(0,0,0,1) 0%, rgba(32,32,35,1) 56%, rgba(109,111,111,1) 100%);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#header{
+   
+    
+}
+
+.buttons{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    gap: 20px;
+    padding: 20px;
+    margin-right: 50px;
+
+}
+
+.buttons a:link,
+.buttons a:active,
+.buttons a:visited,
+.profile a:link,
+.profile a:active,
+.profile a:visited,
+.view a:link,
+.view a:active,
+.view a:visited{
+    color: #A31D1D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttons a:hover,
+.profile a:hover,
+.view a:hover{
+    color: gray;
+}
+
+.name{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.profile{
+    display: flex;
+    list-style: none;
+    margin-left: 60px; 
+    gap: 30px;
+}
+
+.about-me{
+    border: gray 2px solid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 10px 10px black;
+
+}
+.about-me h5, p{
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about-me h5{
+    font-size: 30px;
+    color: #A31D1D;
+    margin-top: 10px;
+
+}
+
+.about-me p{
+    margin-top: -25px;
+    
+}
+
+.skill-img, .port-img, .skill-img2{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+#skill, #portfolios{
+    margin-left: 50px;
+    color: white;
+}
+
+.port-img img{
+
+    height: 300px;
+    width: 230px;
+    
+}
+
+.port-img{
+    margin-left: -100px ;
+}
+
+.datacenter p,
+.bislite p,
+.bold p,
+.jetro p{
+   
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: large;
+     
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    margin-right:50px;
+    gap:30px;
+}
+
+.skill-img {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    gap: 10px;
+}
+
+.skill-img li {
+    flex: 0 0 25%; /* 25% for 4 images per slide */
+   
+}
+
+.skill-img img {
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+   
+}
+
+#prevBtn, #nextBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#prevBtn img, #nextBtn img {
+    width: 30px;
+    height: 30px;
+}
+
+.bislite, 
+.bold,
+.jetro,
+.datacenter{
+
+    border: 2px solid #A31D1D;
+    width: 270px;
+    
+}
+
+.bislite img,
+.bold img,
+.datacenter img,
+.jetro img{
+
+    padding: 20px;
+}
+
+
+
+
+.gmail, .number{
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+
+.gmail img, .number img{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.gmail li p, .number li p{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+.socials{
+    display: flex;
+    list-style: none;
+    
+
+}
+
+.socials img{
+    height: 30px;
+    width: 30px; 
+    margin-left: 20px;
+    gap:30px
+    
+}
+
+#contact{
+    height: 260px;
+    width: 1471px;
+    background-color: #A31D1D;
+    color: white;
+    padding: 20px;
+}
+
+#contact h1{
+    margin-left: 30px;
+    
+}
